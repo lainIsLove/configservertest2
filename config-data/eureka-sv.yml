@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eureka-server
+  cloud:
+    eureka:
+      server:
+        enable-self-preservation: false
+      client:
+        register-with-eureka: false
+        fetch-registry: false
+        lease-renewal-interval-in-seconds: 0
+
+server:
+  port: 8761
+
